@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas Pendientes</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gestor de Tareas Pendientes</h1>
+
+        <div class="input-section">
+            <input type="text" id="ingresarTarea" placeholder="Agrega una nueva tarea...">
+            <button id="agregarTareaBtn">Agregar Tarea</button>
+        </div>
+
+        <div class="filter-section">
+            <button id="verTodoBtn" class="active">Todas</button>
+            <button id="verPendientesBtn">Pendientes</button>
+            <button id="verCompletadasBtn">Completadas</button>
+        </div>
+
+        <ul id="listaTareas">
+            </ul>
+
+        <div class="vacio" id="estVacio">
+            <p>¡No tienes tareas en tu lista!</p>
+            <p>Usa el campo de arriba para añadir una nueva tarea.</p>
+        </div>
+
+    </div>
+</body>
+</html>
